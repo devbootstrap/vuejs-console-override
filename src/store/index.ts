@@ -9,6 +9,9 @@ export default new Vuex.Store({
   mutations: {
   },
   actions: {
+    testLog: () => {
+      console.log('in testlog method in store')
+    }
   },
   modules: {
   }
